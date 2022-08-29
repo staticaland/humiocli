@@ -28,7 +28,7 @@ logger = structlog.getLogger(__name__)
 
 
 class AliasedGroup(click.Group):
-    """Helper class for expanding partial command names to matching commands"""
+    """Helper class for expanding partsial command names to matching commands"""
 
     def get_command(self, ctx, cmd_name):
 
